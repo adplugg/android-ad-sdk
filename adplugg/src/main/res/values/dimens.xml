@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="adplugg_zone_footer_width">320dp</dimen>
+    <dimen name="adplugg_zone_footer_height">50dp</dimen>
+</resources>

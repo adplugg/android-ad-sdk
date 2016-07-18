@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AdViewFooter">
+        <item name="android:layout_weight">@dimen/adplugg_zone_footer_width</item>
+        <item name="android:layout_height">@dimen/adplugg_zone_footer_height</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+</resources>

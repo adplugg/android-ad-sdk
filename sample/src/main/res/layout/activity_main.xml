@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.adplugg.sample.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#333333"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <com.adplugg.view.AdView
+        android:id="@+id/vAdView"
+        android:layout_width="@dimen/adplugg_zone_footer_width"
+        android:layout_height="@dimen/adplugg_zone_footer_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:ap_zone="footer"/>
+    <!--style="@style/AdViewFooter"-->
+</RelativeLayout>
