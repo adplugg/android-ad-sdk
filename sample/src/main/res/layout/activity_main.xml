@@ -13,17 +13,36 @@
     android:background="#333333"
     >
 
+    <!--HEADER-->
+    <com.adplugg.AdView
+        android:id="@+id/vAdViewHeader"
+        android:layout_width="@dimen/adplugg_zone_footer_width"
+        android:layout_height="@dimen/adplugg_zone_footer_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:ap_zone="header"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:layout_above="@+id/vAdViewCenter"/>
 
-    <com.adplugg.view.AdView
-        android:id="@+id/vAdView"
+    <!--CENTER-->
+    <com.adplugg.AdView
+        android:id="@+id/vAdViewCenter"
+        android:layout_width="@dimen/adplugg_zone_footer_width"
+        android:layout_height="@dimen/adplugg_zone_footer_height"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <!--FOOTER-->
+    <com.adplugg.AdView
+        android:id="@+id/vAdViewFooter"
         android:layout_width="@dimen/adplugg_zone_footer_width"
         android:layout_height="@dimen/adplugg_zone_footer_height"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        app:ap_zone="footer"/>
-    <!--style="@style/AdViewFooter"-->
+        />
+
 </RelativeLayout>

@@ -3,5 +3,6 @@
     <declare-styleable name="AdView">
         <attr name="ap_accessCode" format="string" />
         <attr name="ap_zone" format="string" />
+        <attr name="ap_autoLoad" format="boolean" />
     </declare-styleable>
 </resources>
